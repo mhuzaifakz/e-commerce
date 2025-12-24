@@ -24,9 +24,9 @@
                 </div>
                 <!-- Navigation (hidden on mobile) -->
                 <nav class="hidden md:flex space-x-8 font-medium">
-                    <a href="index.html" class="hover:text-red-600">Home</a>
+                    <a href="#" class="hover:text-red-600">Home</a>
                     <a href="#" class="hover:text-red-600">Contact</a>
-                    <a href="#" class="hover:text-red-600">About</a>
+                    <a href="about.html" class="hover:text-red-600">About</a>
                     <a href="two-file.html" class="hover:text-red-600">Sign
                         Up</a>
                 </nav>
@@ -102,68 +102,394 @@
                 </div>
             </div>
         </header>
-        <div style="width: 100%; height: 1px; background-color: rgb(151, 151, 151);"></div>
-        <div class="side-bar">
-            <div class="menus">
-                <a href class="link">Women's Fashion</a>
-                <a href class="link">Men's Fashion</a>
-                <a href class="link">Eletronics</a>
-                <a href class="link">Home & Lifestyle</a>
-                <a href class="link">Medicine</a>
-                <a href class="link">Sports & Outdoor</a>
-                <a href class="link">Baby's & Toys</a>
-                <a href class="link">Groceries & Pets</a>
-                <a href class="link">Health & Beauty</a>
-            </div>
-            <div class="side-gallery">
-                <img src="images/header-picture.png" alt="front gallery">
-            </div>
-        </div>
-        <div class="add-to-cart-container">
-            <div class="add-to-cart">
-                <div class="add-to-cart-div">
-                    <div class="add-to-cart-box">Today's</div>
-                    <div class="flash-title">
-                        <div class="flash-title-div">
-                            <h1>FLASH SALES</h1>
-                        </div>
-                        <div
-                            style="display: grid; grid-template-rows: auto auto; margin-top: -9%;">
-                            <div>
-                                <span class="sales-duration">Days</span>
-                                <span class="sales-duration">Hours
-                                </span>
-                                <span class="sales-duration">Minutes
-                                </span>
-                                <span class="sales-duration">Seconds</span>
-                            </div>
-                            <div>
-                                <span class="sales-number">3
-                                    <span>:</span></span>
-                                <span class="sales-number">23
-                                    <span>:</span></span>
-                                <span class="sales-number">19
-                                    <span>:</span></span>
-                                <span class="sales-number">56</span>
-                            </div>
-                        </div>
-                    </div>
+        <hr>
+        <div
+            class="flex flex-col lg:flex-row max-w-7xl mx-auto px-4 py-6 gap-6">
 
+            <!-- Sidebar -->
+            <div class="w-full lg:w-1/4 lg:border-r">
+                <nav class="flex flex-col space-y-3">
+                    <a href="#"
+                        class="text-gray-700 hover:text-black font-medium">
+                        Women's Fashion
+                    </a>
+                    <a href="#"
+                        class="text-gray-700 hover:text-black font-medium">
+                        Men's Fashion
+                    </a>
+                    <a href="#"
+                        class="text-gray-700 hover:text-black font-medium">
+                        Electronics
+                    </a>
+                    <a href="#"
+                        class="text-gray-700 hover:text-black font-medium">
+                        Home & Lifestyle
+                    </a>
+                    <a href="#"
+                        class="text-gray-700 hover:text-black font-medium">
+                        Medicine
+                    </a>
+                    <a href="#"
+                        class="text-gray-700 hover:text-black font-medium">
+                        Sports & Outdoor
+                    </a>
+                    <a href="#"
+                        class="text-gray-700 hover:text-black font-medium">
+                        Baby's & Toys
+                    </a>
+                    <a href="#"
+                        class="text-gray-700 hover:text-black font-medium">
+                        Groceries & Pets
+                    </a>
+                    <a href="#"
+                        class="text-gray-700 hover:text-black font-medium">
+                        Health & Beauty
+                    </a>
+                </nav>
+            </div>
+            <!-- Side Gallery -->
+            <div class="w-full lg:w-3/4">
+                <img
+                    src="images/header-picture.png"
+                    alt="Front gallery"
+                    class="w-full h-auto rounded-lg object-cover" />
+            </div>
+
+        </div>
+        <!-- Flash Sale Container -->
+        <div
+            class="max-w-7xl mx-auto px-4 py-10 flex flex-col lg:flex-row justify-between items-center gap-6">
+
+            <!-- Left Content -->
+            <div class="flex flex-col gap-4">
+
+                <!-- Today Badge -->
+                <span
+                    class="inline-block bg-red-500 text-white text-sm font-semibold px-4 py-1 rounded">
+                    Today’s
+                </span>
+
+                <!-- Flash Sale Title + Timer -->
+                <div class="flex flex-col sm:flex-row sm:items-end gap-6">
+
+                    <!-- Title -->
+                    <h1 class="text-3xl sm:text-4xl font-bold tracking-wide">
+                        FLASH SALES
+                    </h1>
+
+                    <!-- Timer -->
+                    <div class="grid grid-rows-2 gap-1 text-center">
+
+                        <!-- Labels -->
+                        <div
+                            class="flex gap-4 text-xs font-medium text-gray-500">
+                            <span>Days</span>
+                            <span>Hours</span>
+                            <span>Minutes</span>
+                            <span>Seconds</span>
+                        </div>
+
+                        <!-- Numbers -->
+                        <div class="flex gap-4 text-xl font-bold">
+                            <span>3<span class="mx-1">:</span></span>
+                            <span>23<span class="mx-1">:</span></span>
+                            <span>19<span class="mx-1">:</span></span>
+                            <span>56</span>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="right-left-container">
-                <span><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                        height="24" viewBox="0 0 24 24">
+
+            <!-- Right / Left Buttons -->
+            <div class="flex gap-4">
+
+                <!-- Left Button -->
+                <button
+                    class="w-10 h-10 flex items-center justify-center rounded-full border hover:bg-gray-100 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24"
+                        viewBox="0 0 24 24">
                         <path fill="currentColor"
                             d="M19 13H6.75L12 18.25l-.66.75l-6.5-6.5l6.5-6.5l.66.75L6.75 12H19z" />
-                    </svg></span>
-                <span><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                        height="24" viewBox="0 0 24 24">
+                    </svg>
+                </button>
+
+                <!-- Right Button -->
+                <button
+                    class="w-10 h-10 flex items-center justify-center rounded-full border hover:bg-gray-100 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24"
+                        viewBox="0 0 24 24">
                         <path fill="currentColor"
                             d="M4 12h12.25L11 6.75l.66-.75l6.5 6.5l-6.5 6.5l-.66-.75L16.25 13H4z" />
-                    </svg></span>
+                    </svg>
+                </button>
             </div>
         </div>
+        <!-- flash sales items gallery -->
+        <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 items-center justify-center">
+             <!-- Card 1-->
+  <div class="group w-72 rounded-xl overflow-hidden shadow-lg bg-white relative ">
+
+    <!-- Discount Badge -->
+    <span class="absolute top-3 left-3 bg-red-500 text-white text-sm px-2 py-1 rounded">
+      -40%
+    </span>
+
+    <!-- Icons -->
+    <div class="absolute top-3 right-3 flex flex-col gap-2">
+      
+      <!-- Heart Icon -->
+      <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5 text-black">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+        </svg>
+      </div>
+
+      <!-- Eye Icon -->
+      <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5 text-black">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.577 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.577-3.007-9.964-7.178z" />
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      </div>
+
+    </div>
+
+    <!-- Image -->
+    <div class="p-6 bg-gray-200">
+      <img src="images/Frame-611.png" alt="Game Controller" class="mx-auto">
+      <div class="group-hover:bg-slate-950 text-gray-200 text-center p group-hover:text-slate-50 group-hover:p-6">
+        Add To Cart
+      </div>
+    </div>
+
+    <h4 class="font-semibold pt-[10px] pl-[10px]">HAVIT HV-G92 Gamepad</h4>
+    <!-- Bottom Section -->
+    <div class=" p-4">
+      <p class="text-red-500 font-semibold text-lg">$120 <span class="line-through text-gray-500">$160</span></p>
+
+      <!-- Star Rating -->
+      <div class="flex gap-1 mt-1">
+        <!-- Star SVG -->
+        <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+        <span>(88)</span>
+      </div>
+    </div>
+
+  </div>
+   <!-- Card 2-->
+  <div class="w-72 rounded-xl overflow-hidden shadow-lg bg-white relative">
+
+    <!-- Discount Badge -->
+    <span class="absolute top-3 left-3 bg-red-500 text-white text-sm px-2 py-1 rounded">
+      -35%
+    </span>
+
+    <!-- Icons -->
+    <div class="absolute top-3 right-3 flex flex-col gap-2">
+      
+      <!-- Heart Icon -->
+      <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5 text-black">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+        </svg>
+      </div>
+
+      <!-- Eye Icon -->
+      <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5 text-black">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.577 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.577-3.007-9.964-7.178z" />
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      </div>
+
+    </div>
+
+    <!-- Image -->
+    <div class="p-6 bg-gray-200">
+      <img src="images/Frame-612.png" alt="Game Controller" class="mx-auto">
+    </div>
+
+    <h4 class="font-semibold pt-[10px] pl-[10px]">AK-900 Wired Keyboard</h4>
+    <!-- Bottom Section -->
+    <div class=" p-4">
+      <p class="text-red-500 font-semibold text-lg">$960 <span class="line-through text-gray-500">$1160</span></p>
+
+      <!-- Star Rating -->
+      <div class="flex gap-1 mt-1">
+        <!-- Star SVG -->
+        <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-gray-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+        <span>(75)</span>
+      </div>
+    </div>
+
+  </div>
+   <!-- Card 3-->
+  <div class="w-72 rounded-xl overflow-hidden shadow-lg bg-white relative">
+
+    <!-- Discount Badge -->
+    <span class="absolute top-3 left-3 bg-red-500 text-white text-sm px-2 py-1 rounded">
+      -30%
+    </span>
+
+    <!-- Icons -->
+    <div class="absolute top-3 right-3 flex flex-col gap-2">
+      
+      <!-- Heart Icon -->
+      <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5 text-black">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+        </svg>
+      </div>
+
+      <!-- Eye Icon -->
+      <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5 text-black">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.577 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.577-3.007-9.964-7.178z" />
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      </div>
+
+    </div>
+
+    <!-- Image -->
+   <div class="p-6 bg-gray-200">
+      <img src="images/Frame-613.png" alt="Game Controller" class="mx-auto">
+    </div>
+
+    <h4 class="font-semibold pt-[10px] pl-[10px]">IPS LCD Gaming Monitor</h4>
+    <!-- Bottom Section -->
+    <div class=" p-4">
+      <p class="text-red-500 font-semibold text-lg">$370 <span class="line-through text-gray-500">$400</span></p>
+
+      <!-- Star Rating -->
+      <div class="flex gap-1 mt-1">
+        <!-- Star SVG -->
+        <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+        <span>(99)</span>
+      </div>
+    </div>
+
+  </div>
+   <!-- Card 4-->
+  <div class="w-72 rounded-xl overflow-hidden shadow-lg bg-white relative">
+
+    <!-- Discount Badge -->
+    <span class="absolute top-3 left-3 bg-red-500 text-white text-sm px-2 py-1 rounded">
+      -25%
+    </span>
+
+    <!-- Icons -->
+    <div class="absolute top-3 right-3 flex flex-col gap-2">
+      
+      <!-- Heart Icon -->
+      <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5 text-black">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+        </svg>
+      </div>
+
+      <!-- Eye Icon -->
+      <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-5 h-5 text-black">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.577 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.577-3.007-9.964-7.178z" />
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      </div>
+
+    </div>
+
+    <!-- Image -->
+   <div class="p-6 bg-gray-200">
+      <img src="images/Frame-614.png" alt="Game Controller" class="mx-auto">
+    </div>
+
+    <h4 class="font-semibold pt-[10px] pl-[10px]">S-Series Comfort Chair</h4>
+    <!-- Bottom Section -->
+    <div class=" p-4">
+      <p class="text-red-500 font-semibold text-lg">$375 <span class="line-through text-gray-500">$400</span></p>
+
+      <!-- Star Rating -->
+      <div class="flex gap-1 mt-1">
+        <!-- Star SVG -->
+        <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+         <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/>
+        </svg>
+        <span>(99)</span>
+      </div>
+    </div>
+
+  </div>
+        </section>
+       
         <!-- footer -->
         <footer class="bg-black text-gray-300 pt-16">
             <div
