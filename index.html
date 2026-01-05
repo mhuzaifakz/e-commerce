@@ -1232,31 +1232,26 @@
       <section
         class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 items-center justify-center">
         <!-- Card 1-->
-        <div
-          class="group w-72 rounded-xl overflow-hidden shadow-lg bg-white relative ">
-
-          <!-- Discount Badge -->
-          <span>
-
-          </span>
+         <div
+          class="group relative w-full sm:w-64 md:w-72 h-[365px] rounded-xl bg-white shadow-lg overflow-hidden">
 
           <!-- Icons -->
-          <div class="absolute top-3 right-3 flex flex-col gap-2">
+          <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
 
             <!-- Heart Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
-            </div>
+            </button>
 
             <!-- Eye Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
@@ -1265,23 +1260,25 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-            </div>
+            </button>
 
           </div>
 
           <!-- Image -->
-          <div class="p-2 bg-gray-200">
-            <img src="images/dog-food.png" alt="Game Controller"
-              class="mx-auto">
+          <div class="bg-gray-200 p-6">
+            <img src="images/dog-food.png"
+              class="mx-auto max-h-40 object-contain" alt="Kids Electric Car">
           </div>
 
-          <h4 class="font-semibold pt-[10px] pl-[10px]">Breed Dry Dog Food</h4>
-          <!-- Bottom Section -->
-          <div class=" p-4">
-            <p class="text-red-500 font-semibold text-lg">$100</p>
+          <!-- Content -->
+          <div class="p-4 space-y-2">
+            <h4 class="font-semibold">Breed Dry Dog Food</h4>
 
-            <!-- Star Rating -->
-            <span class="inline-flex gap-1 mt-1">
+            
+
+             <!-- Star Rating -->
+            <div class="flex gap-1 mt-1">
+              <p class="text-red-500 font-semibold text-lg">$100</p>
               <!-- Star SVG -->
               <svg class="w-5 h-5 text-yellow-400 fill-current"
                 viewBox="0 0 20 20">
@@ -1308,46 +1305,41 @@
                 <path
                   d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
               </svg>
-              <span>(65)</span>
-            </span>
-            <!-- Parent -->
-            <div class="relative w-64 h-14 overflow-hidden">
-              <!-- Add To Cart (slides up vertically) -->
-              <div
-                class="absolute bottom-0 left-0 w-full
-           bg-slate-900 text-gray-200 text-center py-4
-           translate-y-full
-           transition-transform duration-300 ease-in-out
-           group-hover:translate-y-0">
-                Add To Cart
-              </div>
+              <span>(35)</span>
             </div>
+
+          </div>
+
+          <!-- Add To Cart -->
+          <div
+            class="absolute bottom-0 left-0 w-full bg-slate-900 text-white text-center py-3
+           translate-y-full group-hover:translate-y-0
+           transition-transform duration-300">
+            Add To Cart
           </div>
 
         </div>
         <!-- Card 2-->
-        <div
-          class="group w-72 rounded-xl overflow-hidden shadow-lg bg-white relative">
-
-          <!-- Discount Badge -->
+         <div
+          class="group relative w-full sm:w-64 md:w-72 h-[365px] rounded-xl bg-white shadow-lg overflow-hidden">
 
           <!-- Icons -->
-          <div class="absolute top-3 right-3 flex flex-col gap-2">
+          <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
 
             <!-- Heart Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
-            </div>
+            </button>
 
             <!-- Eye Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
@@ -1356,23 +1348,25 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-            </div>
+            </button>
 
           </div>
 
           <!-- Image -->
-          <div class="p-4 bg-gray-200">
-            <img src="images/camera.png" alt="Game Controller" class="mx-auto">
+          <div class="bg-gray-200 p-6">
+            <img src="images/camera.png"
+              class="mx-auto max-h-40 object-contain" alt="Kids Electric Car">
           </div>
 
-          <h4 class="font-semibold pt-[10px] pl-[10px]">CANON EOS DSLR
-            Camera</h4>
-          <!-- Bottom Section -->
-          <div class=" p-4">
-            <p class="text-red-500 font-semibold text-lg">$360</p>
+          <!-- Content -->
+          <div class="p-4 space-y-2">
+            <h4 class="font-semibold">CANON EOS DSLR Camera</h4>
 
-            <!-- Star Rating -->
-            <span class="flex gap-1 mt-1">
+            
+
+             <!-- Star Rating -->
+            <div class="flex gap-1 mt-1">
+              <p class="text-red-500 font-semibold text-lg">$360</p>
               <!-- Star SVG -->
               <svg class="w-5 h-5 text-yellow-400 fill-current"
                 viewBox="0 0 20 20">
@@ -1399,46 +1393,42 @@
                 <path
                   d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
               </svg>
-              <span>(65)</span>
-            </span>
-            <!-- Parent -->
-            <div class="relative w-64 h-14 overflow-hidden">
-              <!-- Add To Cart (slides up vertically) -->
-              <div
-                class="absolute bottom-0 left-0 w-full
-           bg-slate-900 text-gray-200 text-center py-4
-           translate-y-full
-           transition-transform duration-300 ease-in-out
-           group-hover:translate-y-0">
-                Add To Cart
-              </div>
+              <span>(95)</span>
             </div>
+
+            
+          </div>
+
+          <!-- Add To Cart -->
+          <div
+            class="absolute bottom-0 left-0 w-full bg-slate-900 text-white text-center py-3
+           translate-y-full group-hover:translate-y-0
+           transition-transform duration-300">
+            Add To Cart
           </div>
 
         </div>
         <!-- Card 3-->
         <div
-          class="group w-72 rounded-xl overflow-hidden shadow-lg bg-white relative">
-
-          <!-- Discount Badge -->
+          class="group relative w-full sm:w-64 md:w-72 h-[365px] rounded-xl bg-white shadow-lg overflow-hidden">
 
           <!-- Icons -->
-          <div class="absolute top-3 right-3 flex flex-col gap-2">
+          <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
 
             <!-- Heart Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
-            </div>
+            </button>
 
             <!-- Eye Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
@@ -1447,23 +1437,25 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-            </div>
+            </button>
 
           </div>
 
           <!-- Image -->
-          <div class="p-2 bg-gray-200">
-            <img src="images/laptop.png" alt="Game Controller" class="mx-auto">
+          <div class="bg-gray-200 p-6">
+            <img src="images/laptop.png"
+              class="mx-auto max-h-40 object-contain" alt="Kids Electric Car">
           </div>
 
-          <h4 class="font-semibold pt-[10px] pl-[10px]">ASUS FHD Gaming
-            Laptop</h4>
-          <!-- Bottom Section -->
-          <div class=" p-4">
-            <p class="text-red-500 font-semibold text-lg">$700</p>
+          <!-- Content -->
+          <div class="p-4 space-y-2">
+            <h4 class="font-semibold">ASUS FHD Gaming Laptop</h4>
 
-            <!-- Star Rating -->
-            <span class="flex gap-1 mt-1">
+            
+
+             <!-- Star Rating -->
+            <div class="flex gap-1 mt-1">
+              <p class="text-red-500 font-semibold text-lg">$700</p>
               <!-- Star SVG -->
               <svg class="w-5 h-5 text-yellow-400 fill-current"
                 viewBox="0 0 20 20">
@@ -1491,45 +1483,39 @@
                   d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
               </svg>
               <span>(325)</span>
-            </span>
-            <!-- Parent -->
-            <div class="relative w-64 h-14 overflow-hidden">
-              <!-- Add To Cart (slides up vertically) -->
-              <div
-                class="absolute bottom-0 left-0 w-full
-           bg-slate-900 text-gray-200 text-center py-4
-           translate-y-full
-           transition-transform duration-300 ease-in-out
-           group-hover:translate-y-0">
-                Add To Cart
-              </div>
             </div>
+          </div>
+
+          <!-- Add To Cart -->
+          <div
+            class="absolute bottom-0 left-0 w-full bg-slate-900 text-white text-center py-3
+           translate-y-full group-hover:translate-y-0
+           transition-transform duration-300">
+            Add To Cart
           </div>
 
         </div>
         <!-- Card 4-->
-        <div
-          class="group w-72 rounded-xl overflow-hidden shadow-lg bg-white relative">
-
-          <!-- Discount Badge -->
+         <div
+          class="group relative w-full sm:w-64 md:w-72 h-[365px] rounded-xl bg-white shadow-lg overflow-hidden">
 
           <!-- Icons -->
-          <div class="absolute top-3 right-3 flex flex-col gap-2">
+          <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
 
             <!-- Heart Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
-            </div>
+            </button>
 
             <!-- Eye Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
@@ -1538,24 +1524,25 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-            </div>
+            </button>
 
           </div>
 
           <!-- Image -->
-          <div class="p-4 bg-gray-200">
-            <img src="images/shampo.png" alt="Game Controller"
-              class="p-[4px] mx-auto">
+          <div class="bg-gray-200 p-6">
+            <img src="images/shampo.png"
+              class="mx-auto max-h-40 object-contain" alt="Kids Electric Car">
           </div>
 
-          <h4 class="font-semibold pt-[10px] pl-[10px]">Curology Product
-            Set</h4>
-          <!-- Bottom Section -->
-          <div class=" p-4">
-            <p class="text-red-500 font-semibold text-lg">$500</p>
+          <!-- Content -->
+          <div class="p-4 space-y-2">
+            <h4 class="font-semibold">Curology Product Set </h4>
 
-            <!-- Star Rating -->
-            <span class="flex gap-1 mt-1">
+            
+
+             <!-- Star Rating -->
+            <div class="flex gap-1 mt-1">
+              <p class="text-red-500 font-semibold text-lg">$500</p>
               <!-- Star SVG -->
               <svg class="w-5 h-5 text-yellow-400 fill-current"
                 viewBox="0 0 20 20">
@@ -1582,26 +1569,25 @@
                 <path
                   d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
               </svg>
-              <span>(65)</span>
-            </span>
-            <!-- Parent -->
-            <div class="relative w-64 h-14 overflow-hidden">
-              <!-- Add To Cart (slides up vertically) -->
-              <div
-                class="absolute bottom-0 left-0 w-full
-           bg-slate-900 text-gray-200 text-center py-4
-           translate-y-full
-           transition-transform duration-300 ease-in-out
-           group-hover:translate-y-0">
-                Add To Cart
-              </div>
+              <span>(145)</span>
             </div>
+           
           </div>
+
+          <!-- Add To Cart -->
+          <div
+            class="absolute bottom-0 left-0 w-full bg-slate-900 text-white text-center py-3
+           translate-y-full group-hover:translate-y-0
+           transition-transform duration-300">
+            Add To Cart
+          </div>
+
+        </div>
 
         </div>
         <!-- Card 5-->
         <div
-          class="group relative w-full sm:w-64 md:w-72 rounded-xl bg-white shadow-lg overflow-hidden">
+          class="group relative w-full sm:w-64 md:w-72 h-[365px] rounded-xl bg-white shadow-lg overflow-hidden">
 
           <!-- Badge -->
           <span
@@ -1648,11 +1634,38 @@
           <div class="p-4 space-y-2">
             <h4 class="font-semibold">Kids Electric Car</h4>
 
-            <p class="text-red-500 font-semibold text-lg">$960</p>
+            
 
-            <!-- Rating -->
-            <div class="flex items-center gap-1 text-yellow-400 text-sm">
-              ★★★★★ <span class="text-gray-500">(65)</span>
+             <!-- Star Rating -->
+            <div class="flex gap-1 mt-1">
+              <p class="text-red-500 font-semibold text-lg">$960</p>
+              <!-- Star SVG -->
+              <svg class="w-5 h-5 text-yellow-400 fill-current"
+                viewBox="0 0 20 20">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
+              </svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current"
+                viewBox="0 0 20 20">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
+              </svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current"
+                viewBox="0 0 20 20">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
+              </svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current"
+                viewBox="0 0 20 20">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
+              </svg>
+              <svg class="w-5 h-5 text-yellow-400 fill-current"
+                viewBox="0 0 20 20">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
+              </svg>
+              <span>(65)</span>
             </div>
 
             <!-- Color Selector -->
@@ -1693,28 +1706,25 @@
 
         </div>
         <!-- Card 6-->
-        <div
-          class="group w-72 rounded-xl overflow-hidden shadow-lg bg-white relative">
-
-          <!-- Discount Badge -->
-
+         <div
+          class="group relative w-full sm:w-64 md:w-72 h-[365px] rounded-xl bg-white shadow-lg overflow-hidden">
           <!-- Icons -->
-          <div class="absolute top-3 right-3 flex flex-col gap-2">
+          <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
 
             <!-- Heart Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
-            </div>
+            </button>
 
             <!-- Eye Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
@@ -1723,23 +1733,25 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-            </div>
+            </button>
 
           </div>
 
           <!-- Image -->
-          <div class="p-8 bg-gray-200">
-            <img src="images/bag.png" alt="Game Controller" class="mx-auto">
+          <div class="bg-gray-200 p-6">
+            <img src="images/sinkers.png"
+              class="mx-auto max-h-40 object-contain" alt="Kids Electric Car">
           </div>
 
-          <h4 class="font-semibold pt-[10px] pl-[10px]">Gucci duffle bag</h4>
-          <!-- Bottom Section -->
-          <div class=" p-4">
-            <p class="text-red-500 font-semibold text-lg">$960 <span
-                class="line-through text-gray-500">$1160</span></p>
+          <!-- Content -->
+          <div class="p-4 space-y-2">
+            <h4 class="font-semibold">Jr. Zoom Soccer Cleats</h4>
 
-            <!-- Star Rating -->
+            
+
+             <!-- Star Rating -->
             <div class="flex gap-1 mt-1">
+              <p class="text-red-500 font-semibold text-lg">$1160</p>
               <!-- Star SVG -->
               <svg class="w-5 h-5 text-yellow-400 fill-current"
                 viewBox="0 0 20 20">
@@ -1766,50 +1778,73 @@
                 <path
                   d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
               </svg>
-              <span>(65)</span>
+              <span>(35)</span>
             </div>
-            <!-- Parent -->
-            <div class="relative w-64 h-14 overflow-hidden">
-              <!-- Add To Cart (slides up vertically) -->
-              <div
-                class="absolute bottom-0 left-0 w-full
-           bg-slate-900 text-gray-200 text-center py-4
-           translate-y-full
-           transition-transform duration-300 ease-in-out
-           group-hover:translate-y-0">
-                Add To Cart
-              </div>
+
+            <!-- Color Selector -->
+            <div class="flex gap-4 pt-2 mb-10">
+
+              <!-- Color 1 -->
+              <button
+                class="group relative w-8 h-8 rounded-full bg-yellow-500 hover:bg-black transition">
+                <span
+                  class="absolute inset-1 bg-white rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+                <span
+                  class="absolute inset-2 bg-yellow-500 rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+              </button>
+
+              <!-- Color 2 -->
+              <button
+                class="group relative w-8 h-8 rounded-full bg-red-400 hover:bg-black transition">
+                <span
+                  class="absolute inset-1 bg-white rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+                <span
+                  class="absolute inset-2 bg-red-400 rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+              </button>
+
             </div>
+          </div>
+
+          <!-- Add To Cart -->
+          <div
+            class="absolute bottom-0 left-0 w-full bg-slate-900 text-white text-center py-3
+           translate-y-full group-hover:translate-y-0
+           transition-transform duration-300">
+            Add To Cart
           </div>
 
         </div>
         <!-- Card 7-->
-        <div
-          class="group w-72 rounded-xl overflow-hidden shadow-lg bg-white relative">
+         <div
+          class="group relative w-full sm:w-64 md:w-72 h-[365px] rounded-xl bg-white shadow-lg overflow-hidden">
 
-          <!-- Discount Badge -->
+          <!-- Badge -->
           <span
-            class="absolute top-3 left-3 bg-green-500 text-white text-sm px-2 py-1 rounded">
+            class="absolute top-3 left-3 bg-green-500 text-white text-xs px-2 py-1 rounded z-10">
             NEW
           </span>
 
           <!-- Icons -->
-          <div class="absolute top-3 right-3 flex flex-col gap-2">
+          <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
 
             <!-- Heart Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
-            </div>
+            </button>
 
             <!-- Eye Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
@@ -1818,24 +1853,25 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-            </div>
+            </button>
 
           </div>
 
           <!-- Image -->
-          <div class="p-14 bg-gray-200">
-            <img src="images/speaker.png" alt="Game Controller" class="mx-auto">
+          <div class="bg-gray-200 p-6">
+            <img src="images/game-pad.png"
+              class="mx-auto max-h-40 object-contain" alt="Kids Electric Car">
           </div>
 
-          <h4 class="font-semibold pt-[10px] pl-[10px]">RGB liquid CPU
-            Cooler</h4>
-          <!-- Bottom Section -->
-          <div class=" p-4">
-            <p class="text-red-500 font-semibold text-lg">$160 <span
-                class="line-through text-gray-500">$170</span></p>
+          <!-- Content -->
+          <div class="p-4 space-y-2">
+            <h4 class="font-semibold">GP11 Shooter USB Gamepad</h4>
 
-            <!-- Star Rating -->
+            
+
+             <!-- Star Rating -->
             <div class="flex gap-1 mt-1">
+              <p class="text-red-500 font-semibold text-lg">$660</p>
               <!-- Star SVG -->
               <svg class="w-5 h-5 text-yellow-400 fill-current"
                 viewBox="0 0 20 20">
@@ -1862,46 +1898,66 @@
                 <path
                   d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
               </svg>
-              <span>(65)</span>
+              <span>(55)</span>
             </div>
-            <!-- Parent -->
-            <div class="relative w-64 h-14 overflow-hidden">
-              <!-- Add To Cart (slides up vertically) -->
-              <div
-                class="absolute bottom-0 left-0 w-full
-           bg-slate-900 text-gray-200 text-center py-4
-           translate-y-full
-           transition-transform duration-300 ease-in-out
-           group-hover:translate-y-0">
-                Add To Cart
-              </div>
+
+            <!-- Color Selector -->
+            <div class="flex gap-4 pt-2 mb-10">
+
+              <!-- Color 1 -->
+              <button
+                class="group relative w-8 h-8 rounded-full bg-black hover:bg-black transition">
+                <span
+                  class="absolute inset-1 bg-white rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+                <span
+                  class="absolute inset-2 bg-black rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+              </button>
+
+              <!-- Color 2 -->
+              <button
+                class="group relative w-8 h-8 rounded-full bg-red-400 hover:bg-black transition">
+                <span
+                  class="absolute inset-1 bg-white rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+                <span
+                  class="absolute inset-2 bg-red-400 rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+              </button>
+
             </div>
+          </div>
+
+          <!-- Add To Cart -->
+          <div
+            class="absolute bottom-0 left-0 w-full bg-slate-900 text-white text-center py-3
+           translate-y-full group-hover:translate-y-0
+           transition-transform duration-300">
+            Add To Cart
           </div>
 
         </div>
         <!-- Card 8-->
         <div
-          class="group w-72 rounded-xl overflow-hidden shadow-lg bg-white relative">
-
-          <!-- Discount Badge -->
-
+          class="group relative w-full sm:w-64 md:w-72 h-[365px] rounded-xl bg-white shadow-lg overflow-hidden">
           <!-- Icons -->
-          <div class="absolute top-3 right-3 flex flex-col gap-2">
+          <div class="absolute top-3 right-3 flex flex-col gap-2 z-10">
 
             <!-- Heart Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
-            </div>
+            </button>
 
             <!-- Eye Icon -->
-            <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shadow cursor-pointer">
+            <button
+              class="w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-gray-100 transition">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"
                 class="w-5 h-5 text-black">
@@ -1910,23 +1966,25 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-            </div>
+            </button>
 
           </div>
 
           <!-- Image -->
-          <div class="p-2 bg-gray-200">
-            <img src="images/bookshelves.png" alt="Game Controller"
-              class="p-[4px] mx-auto">
+          <div class="bg-gray-200 p-6">
+            <img src="images/black-jacket.png"
+              class="mx-auto max-h-40 object-contain" alt="Kids Electric Car">
           </div>
 
-          <h4 class="font-semibold pt-[10px] pl-[10px]">Small BookSelf</h4>
-          <!-- Bottom Section -->
-          <div class=" p-4">
-            <p class="text-red-500 font-semibold text-lg">$360 </p>
+          <!-- Content -->
+          <div class="p-4 space-y-2">
+            <h4 class="font-semibold">Quilted Satin Jacket</h4>
 
-            <!-- Star Rating -->
+            
+
+             <!-- Star Rating -->
             <div class="flex gap-1 mt-1">
+              <p class="text-red-500 font-semibold text-lg">$660</p>
               <!-- Star SVG -->
               <svg class="w-5 h-5 text-yellow-400 fill-current"
                 viewBox="0 0 20 20">
@@ -1953,24 +2011,52 @@
                 <path
                   d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z" />
               </svg>
-              <span>(65)</span>
+              <span>(55)</span>
             </div>
-            <!-- Parent -->
-            <div class="relative w-64 h-14 overflow-hidden">
-              <!-- Add To Cart (slides up vertically) -->
-              <div
-                class="absolute bottom-0 left-0 w-full
-           bg-slate-900 text-gray-200 text-center py-4
-           translate-y-full
-           transition-transform duration-300 ease-in-out
-           group-hover:translate-y-0">
-                Add To Cart
-              </div>
+
+            <!-- Color Selector -->
+            <div class="flex gap-4 pt-2 mb-10">
+
+              <!-- Color 1 -->
+              <button
+                class="group relative w-8 h-8 rounded-full bg-green-800 hover:bg-black transition">
+                <span
+                  class="absolute inset-1 bg-white rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+                <span
+                  class="absolute inset-2 bg-green-800 rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+              </button>
+
+              <!-- Color 2 -->
+              <button
+                class="group relative w-8 h-8 rounded-full bg-red-400 hover:bg-black transition">
+                <span
+                  class="absolute inset-1 bg-white rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+                <span
+                  class="absolute inset-2 bg-red-400 rounded-full scale-0 group-hover:scale-100 transition">
+                </span>
+              </button>
+
             </div>
+          </div>
+
+          <!-- Add To Cart -->
+          <div
+            class="absolute bottom-0 left-0 w-full bg-slate-900 text-white text-center py-3
+           translate-y-full group-hover:translate-y-0
+           transition-transform duration-300">
+            Add To Cart
           </div>
 
         </div>
       </section>
+       <div class=" mt-10 mx-auto flex w-full justify-center items-center">
+      <button type="button"
+        class="w-[234px] h-[56px] bg-red-500 text-stone-50 hover:bg-red-700 rounded-lg shadow">View
+        All Products</button>
+    </div>
 
       <!-- footer -->
       <footer class="mt-10 bg-black text-gray-300 pt-16">
