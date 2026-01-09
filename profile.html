@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Error | Exclusive</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Account |</title>
 </head>
 <body>
      <div
@@ -26,7 +26,8 @@
                 <!-- Navigation (hidden on mobile) -->
                 <nav class="hidden md:flex space-x-8 font-medium">
                     <a href="account.html" class="hover:text-red-600">Home</a>
-                    <a href="contact.html" class="hover:text-red-600">Contact</a>
+                    <a href="contact.html"
+                        class="hover:text-red-600">Contact</a>
                     <a href="about.html" class="hover:text-red-600">About</a>
                     <a href="sign-up.html" class="hover:text-red-600">Sign
                         Up</a>
@@ -49,7 +50,7 @@
 
                     <!-- Icons -->
                     <div class="flex items-center space-x-4">
-                       <!-- Wishlist -->
+                        <!-- Wishlist -->
                         <a href="wishlist.html"><svg class="w-6 h-6 cursor-pointer" viewBox="0 0 32 32"
                             fill="none">
                             <path
@@ -81,17 +82,16 @@
                                 stroke-linejoin="round" />
                         </svg>
 
-                         <!-- User -->
+                        <!-- User -->
                          <a href="profile.html">
-                        <svg class="w-6 h-6 cursor-pointer" viewBox="0 0 32 32"
+                        <svg class="w-10 h-10 p-2 rounded-full bg-red-500 cursor-pointer" viewBox="0 0 32 32"
                             fill="none">
                             <path
                                 d="M7 27v-2.5C7 21.5 10 19 16 19s9 2.5 9 5.5V27"
-                                stroke="black" stroke-width="1.5" />
-                            <circle cx="16" cy="9.5" r="4.5" stroke="black"
-                                stroke-width="1.5" />
+                                stroke="white" stroke-width="3" />
+                            <circle cx="16" cy="9.5" r="4.5" stroke="white"
+                                stroke-width="3" />
                         </svg>
-                        </a>
                     </div>
 
                     <!-- Mobile menu button -->
@@ -106,28 +106,20 @@
                 </div>
             </div>
         </header>
-        <section>
+        <section class="flex">
             <div class="p-20">
-                <span class="p-6">
+                <span class="">
                     <a href="account.html" class="text-gray-500">Home</a>
                 </span>
-                <span class="text-gray-500">
-                    /
+                <span class="text-gray-500 p-6">
+                        /
                 </span>
-                <span class="p-6">
-                    <a href="error.html">404 Error</a>
+                <span class="">
+                    <a href="profile.html">My Account</a>
                 </span>
             </div>
-            <div class="p-40">
-                <h1 class="text-9xl pl-[600px] pb-12">404 Not Found</h1>
-                <div class="pb-12 pl-[800px]">Your visited page not found. You may go home page.</div>
-                <form action="index.html" class="pb-12  pl-[850px]">
-                 <button
-            type="submit"
-            class="bg-red-500 hover:bg-red-600 text-white px-10 py-4 rounded-md transition">
-            Back To Home Page
-          </button>
-                </form>
+            <div class="flex p-20 ml-[1380px]">
+                <span>Welcome! <strong class="text-red-500">Muhammad Huzaifa</strong></span>
             </div>
         </section>
         <footer class="bg-black text-gray-300 pt-16">
