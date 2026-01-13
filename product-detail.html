@@ -5,6 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.tailwindcss.com"></script>
         <title> Product Detail | Exclusive</title>
+        <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            normalgreen: '00FF66',
+           
+          }
+        }
+      }
+    }
+  </script>
     </head>
     <body>
          <header class="w-full border-b border-gray-200">
@@ -98,6 +110,78 @@
       </div>
     </header>
     <hr>
+    <section>
+        <div class="p-20">
+                <span class="p-6">
+                    <a href="account.html" class="text-gray-500">Home</a>
+                </span>
+                <span class="text-gray-500">
+                    /
+                </span>
+                <span class="p-6">
+                    <a href="" class="text-gray-500">Gaming</a>
+                </span>
+                <span class="text-gray-500">
+                    /
+                </span>
+                <span class="p-6">
+                    <a href="product-detail.html">Havic HV G-92 Gamepad</a>
+                </span>
+            </div>
+    </section>
+    <section class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+
+  <!-- Thumbnails -->
+  <div class="flex lg:flex-col gap-4 justify-center lg:justify-start">
+    <div class="flex items-center justify-center bg-gray-100 p-4 rounded-md w-24 h-24 sm:w-32 sm:h-32">
+      <img src="game-pad-all-sides/two-game-pag.png" class="max-w-full max-h-full" alt="">
+    </div>
+    <div class="flex items-center justify-center bg-gray-100 p-4 rounded-md w-24 h-24 sm:w-32 sm:h-32">
+      <img src="game-pad-all-sides/other-side-veiw.png" class="max-w-full max-h-full" alt="">
+    </div>
+    <div class="flex items-center justify-center bg-gray-100 p-4 rounded-md w-24 h-24 sm:w-32 sm:h-32">
+      <img src="game-pad-all-sides/down-veiw.png" class="max-w-full max-h-full" alt="">
+    </div>
+    <div class="flex items-center justify-center bg-gray-100 p-4 rounded-md w-24 h-24 sm:w-32 sm:h-32">
+      <img src="game-pad-all-sides/side-veiw.png" class="max-w-full max-h-full" alt="">
+    </div>
+  </div>
+
+  <!-- Main Image -->
+  <div class="flex justify-center">
+    <div class="bg-gray-100 rounded-lg flex items-center justify-center w-full max-w-md h-[700px] sm:h-[320px]">
+      <img src="game-pad-all-sides/front-veiw.png"
+           class="max-w-full max-h-full"
+           alt="">
+    </div>
+  </div>
+
+  <!-- Product Info -->
+  <div class="flex flex-col gap-4">
+    <h1 class="font-black text-2xl sm:text-3xl">
+      Havic HV G-92 Gamepad
+    </h1>
+
+    <!-- Rating -->
+    <div class="flex items-center gap-2 flex-wrap">
+      <div class="flex gap-1">
+        <!-- Star SVG (reuse same SVG) -->
+        <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/></svg>
+        <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/></svg>
+        <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/></svg>
+        <svg class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/></svg>
+        <svg class="w-5 h-5 text-gray-300 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.97a1 1 0 00.95.69h4.173c.969 0 1.371 1.24.588 1.81l-3.377 2.455a1 1 0 00-.364 1.118l1.287 3.97c.3.921-.755 1.688-1.54 1.118l-3.377-2.455a1 1 0 00-1.175 0l-3.377 2.455c-.784.57-1.838-.197-1.54-1.118l1.287-3.97a1 1 0 00-.364-1.118L2.04 9.397c-.783-.57-.38-1.81.588-1.81h4.173a1 1 0 00.95-.69l1.286-3.97z"/></svg>
+      </div>
+
+      <span class="text-sm text-gray-500">
+        (150 Reviews) |
+        <span class="text-green-300 font-medium">In Stock</span>
+      </span>
+    </div>
+  </div>
+
+</section>
+
     <!-- footer -->
       <footer class="mt-10 bg-black text-gray-300 pt-16">
         <div
