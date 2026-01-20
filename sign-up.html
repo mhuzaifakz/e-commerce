@@ -77,9 +77,10 @@
       <h2 class="text-2xl font-semibold mb-2">Create An Account</h2>
       <p class="text-gray-600 mb-6">Enter your details below</p>
 
-      <form class="space-y-8">
+      <form class="space-y-8" onsubmit="signup(event)">
         <input
           type="text"
+          id="name"
           placeholder="Name"
           class="w-full px-4 py-3 border-b rounded focus:ring-2 focus:ring-red-500"
         />
@@ -87,24 +88,29 @@
         <input
           type="text"
           placeholder="Email Or Phone Number"
+          id="email"
           class="w-full px-4 py-3 border-b rounded focus:ring-2 focus:ring-red-500"
         />
          <input
           type="password"
+          id="password"
           placeholder="Password"
           class="w-full px-4 py-3 border-b rounded focus:ring-2 focus:ring-red-500"
         />
 
         <!-- LOGIN BUTTON -->
         <button
-          class="w-full py-3 bg-[#db4444] text-white rounded hover:opacity-90 transition">
+          class="w-full py-3 bg-[#db4444] text-white rounded hover:opacity-90 transition"
+          type="submit">
           Create An Account
         </button>
 
         <!-- FORGOT -->
         <!-- Google Sign In Button -->
 <button
-  class="flex items-center justify-center gap-3 w-full border border-gray-300 rounded-md py-3 bg-white hover:bg-gray-50 transition">
+  class="flex items-center justify-center gap-3 w-full border border-gray-300 rounded-md py-3 bg-white hover:bg-gray-50 transition" 
+  type="button" 
+  >
 
   <!-- Google Logo -->
   <svg width="20" height="20" viewBox="0 0 48 48">
@@ -258,6 +264,19 @@
                 © Copyright Rimel 2022. All right reserved
             </div>
         </footer>
-
+        <script>
+            function signup(event) {
+        event.preventDefault();
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const password = document.getElementById("password").value.trim();
+        if(name === "" || email === "" || password === "") {
+            alert("Please fill all the fields 😉");
+        }
+        else{
+            window.location.href = "profile.html";
+        }
+        }
+        </script>
 </body>
 </html>
